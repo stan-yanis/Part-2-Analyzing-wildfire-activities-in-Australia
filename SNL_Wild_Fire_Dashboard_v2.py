@@ -14,7 +14,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 # Load the wildfire data into pandas dataframe
-df =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/Historical_Wildfires.csv')
+df =  pd.read_csv('Historical_Wildfires.csv')
 
 # Extract month and year from the 'Date' column
 # Convert the 'Date' column to datetime and create a new 'Month' column with the month names
